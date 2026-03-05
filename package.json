@@ -3,6 +3,10 @@
   "version": "0.1.1",
   "description": "Bridge between Electron main process and PWA renderer for Meerk warehouse management system",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meerkapp/electron-bridge"
+  },
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
