@@ -1,6 +1,6 @@
 {
   "name": "@meerkapp/electron-bridge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bridge between Electron main process and PWA renderer for Meerk warehouse management system",
   "license": "MIT",
   "type": "module",
@@ -37,7 +37,8 @@
     "typescript": "^5.0.0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "pnpm": {
     "onlyBuiltDependencies": ["better-sqlite3", "electron", "esbuild"]
